@@ -1,8 +1,8 @@
-apiVersion: helm.toolkit.fluxcd.io/v2beta2
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: podinfo
-  namespace: default
+  namespace: flux2-hw
 spec:
   interval: 10m
   timeout: 5m
